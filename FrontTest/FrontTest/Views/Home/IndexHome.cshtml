@@ -1,0 +1,23 @@
+﻿
+@{
+	ViewData["Title"] = "IndexHome";
+}
+
+@using Microsoft.AspNetCore.Http;
+
+<!DOCTYPE html>
+
+<html>
+<head>
+	<meta name="viewport" content="width=device-width" />
+	<title>Success</title>
+</head>
+<body>
+
+
+	Welcome @Context.Session.GetString("username")
+	<br>
+
+
+</body>
+</html>
